@@ -7,4 +7,4 @@ A portfolio for potential employers to view web development work samples complet
 ![screenshot of portfolio](screenshot.jpg)
 
 ## Deployed Link
-Link to deployed page: [Stephanie Carr's Portfolio](https://www.heresmystuff.com/)
+Link to deployed page: [Stephanie Carr's Portfolio](https://sacarr91.github.io/s-carr-webdev-portfolio/)
