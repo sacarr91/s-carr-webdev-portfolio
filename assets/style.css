@@ -1,9 +1,44 @@
-html, body {
-    display: flex;
-    background-color: rgba(255, 254, 255, 0.876);
-}
-
-
 header img {
+    text-anchor: start;
     max-width: 100%;
 }
+
+/* structure copied from mini-project example */
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --your-pink: #FCBFC2;
+    --jacarta: #2D2864;
+    --heather: #C1CBD5;
+    --powder-ash: #BACDC1;
+    --voodoo: #452B46;
+}
+
+h1 {
+    font-size: larger;
+}
+
+h2, h3, h4 {
+    font-size: large;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  ul {
+    margin: 5px;
+    padding: 5px;
+    border: dotted;
+    text-align: center;
+    border-color: var(--voodoo);
+    background-color: var(--your-pink);
+    width: auto;
+  }  
+
+  .main {
+    line-height: 20px;
+  }
